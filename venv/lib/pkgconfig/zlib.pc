@@ -1,0 +1,13 @@
+prefix=/Users/batbayarbold/Desktop/DSProjects/ml-projects/venv
+exec_prefix=/Users/batbayarbold/Desktop/DSProjects/ml-projects/venv
+libdir=/Users/batbayarbold/Desktop/DSProjects/ml-projects/venv/lib
+sharedlibdir=/Users/batbayarbold/Desktop/DSProjects/ml-projects/venv/lib
+includedir=/Users/batbayarbold/Desktop/DSProjects/ml-projects/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
