@@ -1,0 +1,3 @@
+'''
+triger all components
+'''
